@@ -1,0 +1,401 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+
+    .flex-items{
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      align-items:center ;
+      gap: 15px;
+      margin-left: 10%;
+      padding: 20px;
+    }
+    .icon{
+      text-decoration:none;
+      margin: auto;
+      color:black ;
+
+    }
+    .bg-image{
+   background-image: url(../image/adventure\ 2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/adventure\ 2.jpg);
+
+    }
+    .header-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 200px;
+      color: azure;
+    }
+    .headert{
+      font-weight: 400;
+      font-size: 70px;
+    }
+   
+
+    
+    .divbutton{
+   padding: 10px;
+   border-radius: 30px;
+   border: none;
+   letter-spacing: 1px;
+   align-items: center;
+   justify-self: center;
+    }
+
+  
+.forms{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  background:black;
+  height: 20vh;
+  color:aliceblue;
+  
+  }
+  .input-field{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:5px;
+  }
+  input,select{
+     padding: 10px;
+  }
+  label {
+     text-transform: capitalize;
+     font-size: 10px;
+  }
+
+  .section-image-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  padding: 15px;}
+    
+
+  .section-image1{
+   background-image: url(./image/desert.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: none;
+   background-size: cover;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/desert.jpg);
+   height: 500px;
+   width: 350px;
+   border-radius:50px ;
+  }
+ 
+  .section-image2{
+   background-image: url(../image/mountains.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: none;
+   background-size: cover;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/mountains.jpg);
+   height: 500px;
+   width: 350px;
+   border-radius:50px ;
+  }
+.section-image3{
+  background-image: url(../image/beach3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/beach3.jpg);
+  height: 500px;
+  width: 350px;
+  border-radius:50px;}
+
+  
+.third-section {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.third-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+.travel-info {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+
+.info-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  font-size: 16px;
+  color: #666;
+}.places-grid {
+  background-color: #eef;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid-item {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 10px;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.places-grid h2 {
+  padding: 10px 10px;
+}
+
+.grid-item:nth-child(1) {
+  background-image: url('../image/egypt.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/egypt.png);
+}
+.grid-item:nth-child(2) {
+  background-image: url('../image/Paris.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(../image/Paris.png);
+}
+.grid-item:nth-child(3) {
+  background-image: url('../image/London.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/London.png);
+}
+.grid-item:nth-child(4) {
+  background-image: url('../image/istanbul.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/istanbul.png);;
+ ;}
+.grid-item:nth-child(5) {
+  background-image:('../image/dubai.jpg') ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../image/dubai.jpg)}
+
+  a:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+  
+  a:active{
+   color: white;
+
+  }
+
+  .vals-day-package {
+    background-image: url('../image/vals5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vals-day-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.vals-day-package h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.vals-day-package p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.vals-day-package ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vals-day-package li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.book-now {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.book-now:hover {
+    background-color: #d93650;
+}
+  
+  
+
+
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  .flex-items {
+      flex-direction: column;
+      align-items: center;
+  }
+  .forms {
+      width: 90%;
+  }
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headert {
+      font-size: 40px;
+  }
+  .grid-item {
+      height: 150px;
+      font-size: 14px;
+  }
+}
+/* .featured-section {
+  background-image: url('../images/paradise.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.featured-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.featured-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.featured-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Styling for Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff4d6d;
+}
+
